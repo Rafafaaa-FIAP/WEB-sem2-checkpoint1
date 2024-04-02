@@ -1,12 +1,15 @@
-import Nav from "../../components/Navbar/Nav"
+import NavBar from "../../components/Navbar/Nav"
+import React from "react";
 
 import "../Products/Products.css"
 
 function Products(){
-    return(
 
+    
+
+    return(
         <>  
-            <Nav />
+            <NavBar appearance="subtle"/>
             <h1>Products in Home</h1>
         </>
     )
