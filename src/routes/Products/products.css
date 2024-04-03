@@ -15,25 +15,38 @@
 }
 
 .products h1{
-    font-size:8rem;
+    font-size:4rem;
     color: #000;
 }
 
-.cards{
-    width: 100%;
+.products{
+    height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    
+    
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
 
 .card {
     width: 250px;
     height: 400px;
     background-color: #c2c2c2;
-    margin-top: 100px;
-    margin-left: 10%;
+    /* margin-top: 100px;
+    margin-left: 10%; */
     padding: 10px;
     border-radius: 15px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
 }
 
 .card h3 {

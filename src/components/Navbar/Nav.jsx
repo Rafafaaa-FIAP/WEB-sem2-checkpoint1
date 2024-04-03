@@ -45,7 +45,7 @@ const NavBar = ({...props}) => (
             <div className="cart">
               <IoMdCart className='cart-icon' />
               <span>Carrinho</span>
-            </div>
+            </div>  
 
           </Nav.Item>
         </div>
