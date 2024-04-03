@@ -1,9 +1,6 @@
 
-
-
 .main-nav{
     font-size: 1.6rem;
-    
 }
 
 
@@ -13,6 +10,15 @@ div.cart{
     gap: 1rem;
     
 }
+
 .cart-icon{
     font-size: 2.6rem;
 }
+
+
+.linkRouter{
+    text-decoration: none;
+    color: #575757;
+}
+
+

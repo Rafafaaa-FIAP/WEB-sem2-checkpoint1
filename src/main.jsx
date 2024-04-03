@@ -1,12 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 import App from './App.jsx'
+import Home from './routes/Home/Home.jsx';
 import Products from './routes/Products/Products.jsx'
+import Contact from './routes/Contact/Contact.jsx';
+
+
 import './index.css'
 
 
@@ -15,9 +16,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <App/>,
     children: [
-      {path: "/", element: <Products /> },
-      {path: "/home", element: <Products /> },
+      {path: "/", element: <Home /> },
+      {path: "/home", element: <Home /> },
       {path: "/products", element: <Products /> },
+      {path: "/contact/telefone", element: <Contact />},
+      {path: "/contact/email", element: <Contact />}
+
     ]
   }, 
   

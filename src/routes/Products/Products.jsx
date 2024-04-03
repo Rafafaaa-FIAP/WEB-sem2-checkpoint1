@@ -1,7 +1,5 @@
-import NavBar from "../../components/Navbar/Nav"
-import React from "react";
 
-import "../Products/Products.css"
+import React from "react";
 
 function Products(){
 
@@ -9,7 +7,7 @@ function Products(){
 
     return(
         <>  
-            <NavBar appearance="subtle"/>
+            
             <h1>Products in Home</h1>
         </>
     )
