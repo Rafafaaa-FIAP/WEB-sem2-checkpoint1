@@ -1,6 +1,5 @@
-import React from 'react';
-import { Navbar , Nav} from 'rsuite';
-import { Link, NavLink} from 'react-router-dom';
+import { Navbar , Nav } from 'rsuite';
+import { Link} from 'react-router-dom';
 
 import HomeIcon from '@rsuite/icons/legacy/Home';
 import { IoMdCart } from "react-icons/io";

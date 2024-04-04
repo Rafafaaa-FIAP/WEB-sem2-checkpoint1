@@ -1,0 +1,19 @@
+.students {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 14px;
+  color: rgb(41, 44, 46);
+  /* background-color: green; */
+}
+
+footer {
+  background-color: rgb(185, 185, 196);
+  box-shadow: 1rem;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  padding: 3rem;
+}
