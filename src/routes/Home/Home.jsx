@@ -1,4 +1,5 @@
 import {} from "react"
+import Card from "../../components/Card/Card"
 
 
 const Home = () =>{
@@ -6,7 +7,7 @@ const Home = () =>{
 
     return (
         <>
-            <h1>Home Page</h1>
+         <Card name="Produto01" />
         </>
     )
 
