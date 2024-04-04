@@ -17,3 +17,22 @@ body{
     background-color: #f0f0f0;
    
 }
+
+section.main{
+    font-size: 2.4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+
+section.main h1{
+    padding-bottom: .4rem;
+    border-bottom: 1px solid black;
+}
+
+div.cards{
+    display: flex;
+
+}

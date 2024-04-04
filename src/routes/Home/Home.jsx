@@ -7,7 +7,49 @@ const Home = () =>{
 
     return (
         <>
-         <Card name="Produto01" />
+        <section className="main">
+
+            <h1>Acessórios</h1>
+
+
+            <div className="cards">
+                <Card produto="Cap jordan react" desc="Boné de cria demais" price="R$100" source="./imgs/cap.jpg" />
+                <Card  produto="Cap jordan react" desc="Boné de cria demais" price="R$100" source="./imgs/cap.jpg"/>
+                <Card  produto="Cap jordan react" desc="Boné de cria demais" price="R$100" source="./imgs/cap.jpg"/>
+            </div>
+           
+
+        </section>
+
+        <section className="main">
+
+            <h1>Camisetas & Moletons</h1>
+
+
+            <div className="cards">
+                <Card  produto="T-shirt jordan react" desc="Blusa de cria demais" price="R$100" source="./imgs/tshirt.jpg"/>
+                <Card produto="T-shirt jordan react" desc="Blusa de cria demais" price="R$100" source="./imgs/hoodie.jpg" />
+                <Card  produto="T-shirt jordan react" desc="Blusa de cria demais" price="R$100" source="./imgs/tshirt.jpg"/>
+            </div>
+           
+
+        </section>
+
+
+        <section className="main">
+
+            <h1>Tênis</h1>
+
+
+            <div className="cards">
+                <Card produto="Air jordan react" desc="Tênis de cria demais" price="R$100" source="./imgs/sneaker.jpg"/>
+                <Card  produto="Air jordan react" desc="Tênis de cria demais" price="R$100" source="./imgs/sneaker.jpg"/>
+                <Card  produto="Air jordan react" desc="Tênis de cria demais" price="R$100" source="./imgs/sneaker.jpg"/>
+            </div>
+           
+
+        </section>
+         
         </>
     )
 

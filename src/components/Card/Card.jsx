@@ -6,20 +6,13 @@ const Card = (props) => {
     return (
         <>
         
-        <div className="card-comp">
-            <img className="p-image" src="src/assets/img/Teste.jpeg" alt="Foto do produto" />
-
-            <div className="description">
-                <p className="product-title ">
-                    {props.name}
-                </p>
-
-                <div className="actions">
-                    <Button />
-                    <button>Add to cart</button>
-                </div>
-            </div>
-        </div>
+        <div className="card">
+                        <img src={props.source} alt="sneaker-img" className="card-img" />
+                        <h3>{props.produto}</h3>
+                        <p>{props.desc}</p>
+                        <p className="price">{props.price}</p>
+                        <button>Comprar</button>
+                    </div> 
         
         </>
     )

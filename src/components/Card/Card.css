@@ -1,5 +1,5 @@
 div.card-comp{
-    background-color: aqua;
+    background-color: #c7c7c7;
 
     width: 25%;
     height: 40rem;
@@ -31,4 +31,9 @@ p.product-title{
     font-family: bold;
     font-size: 2.4rem;
     font-family: "Inter";
+}
+
+div.actions{
+    display: flex;
+    gap: 2rem;
 }
