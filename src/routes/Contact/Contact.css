@@ -1,8 +1,33 @@
-.imagens {
+div#contact-page {
+    width: 100%;
+    height: 80vh;
+    padding: 5rem;
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
-.imagens img {
-    width: 5rem;
+div#contact-page h1 {
+    font-size: 4rem;
+}
+
+div#contact-page h2 {
+    font-size: 2rem;
+}
+
+div#contact-page p {
+    font-size: 1.5rem;
+}
+
+div#contact-page .imagens {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+div#contact-page .imagens img {
+    height: 2.5rem;
+    cursor: pointer;
 }
