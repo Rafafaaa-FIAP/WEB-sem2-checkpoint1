@@ -34,8 +34,7 @@ const NavBar = ({...props}) => (
   
         
           <Nav.Menu title="Contato">
-          <Link to="/contact/telefone" className='linkRouter'><Nav.Item>Via email</Nav.Item></Link>
-          <Link to="/contact/email" className='linkRouter'><Nav.Item> Via telefone</Nav.Item></Link>
+            <Link to="/contact" className='linkRouter'><Nav.Item>Entrar em contato</Nav.Item></Link>
           </Nav.Menu>
 
       </Nav>
