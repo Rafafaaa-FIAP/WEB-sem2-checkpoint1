@@ -1,8 +1,27 @@
-# React + Vite
+<h1 align="center">Checkpoint 4 - Web Development</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<hr/>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#pushpin-Introdução">Introdução</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#hammer_and_wrench-Tecnologias-e-Ferramentas">Tecnologias e Ferramentas</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologist-Integrantes">Integrantes</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<hr/>
+
+## :pushpin: Introdução
+Este checkpoint teve como objetivo avaliar a compreensão acerca do [ReactJS](https://pt-br.legacy.reactjs.org/)
+
+## :hammer_and_wrench: Tecnologias e Ferramentas
+Este projeto utilizou as seguintes tecnologias e ferramentas:
+* [ReactJS](https://pt-br.legacy.reactjs.org/)
+
+## :technologist: Integrantes
+* RM 552980 - Danilo Vieira
+* RM 553377 - Enzo de Oliveira Rodrigues
+* RM 552939 - Jonata Rafael
+* RM 553403 - Matheus Felippe
+* RM 553521 - Rafael Cristofali
