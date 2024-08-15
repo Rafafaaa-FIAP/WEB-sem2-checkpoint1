@@ -1,4 +1,4 @@
-<h1 align="center">Checkpoint 4 - Web Development</h1>
+<h1 align="center">Semestre 2 - Checkpoint 1</h1>
 
 <hr/>
 
@@ -7,17 +7,22 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer_and_wrench-Tecnologias-e-Ferramentas">Tecnologias e Ferramentas</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bulb-Solução">Solução</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologist-Integrantes">Integrantes</a>
 </p>
 
 <hr/>
 
 ## :pushpin: Introdução
-Este checkpoint teve como objetivo avaliar a compreensão acerca do [ReactJS](https://pt-br.legacy.reactjs.org/)
+Este checkpoint teve como objetivo avaliar a compreensão acerca do ReactJS.
 
 ## :hammer_and_wrench: Tecnologias e Ferramentas
 Este projeto utilizou as seguintes tecnologias e ferramentas:
 * [ReactJS](https://pt-br.legacy.reactjs.org/)
+
+## :bulb: Solução
+Acesse o site clicando [aqui](https://rafafaaa-fiap.github.io/WEB-sem2-checkpoint1).
 
 ## :technologist: Integrantes
 * RM 552980 - Danilo Vieira
